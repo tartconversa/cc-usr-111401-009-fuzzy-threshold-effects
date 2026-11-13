@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "data_version": "sample-1",
+    "cutoff": 60,
+    "window": [
+      0,
+      90
+    ]
+  },
+  "collections": {
+    "applications": [
+      {
+        "id": "a1",
+        "revision": 1,
+        "person": "p1",
+        "score": 59,
+        "score_day": 0,
+        "decision_day": 5,
+        "received": false
+      },
+      {
+        "id": "a2",
+        "revision": 1,
+        "person": "p2",
+        "score": 61,
+        "score_day": 0,
+        "decision_day": 5,
+        "received": true
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "y1",
+        "revision": 1,
+        "person": "p1",
+        "day": 10,
+        "value": 10
+      },
+      {
+        "id": "y2",
+        "revision": 1,
+        "person": "p2",
+        "day": 10,
+        "value": 12
+      }
+    ]
+  }
+}
